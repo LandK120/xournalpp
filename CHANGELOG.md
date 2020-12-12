@@ -47,6 +47,7 @@
     * Added a Preferences settings to preserve line width while resizing a
       selection (#2011)
     * Added a Preferences setting to change the snap grid size (#1920).
+    * Fixed a bug in the object selection algorithm (#2478)
 * Pen
     * Added Preferences settings to configure the radius, color, and border of
       the cursor highlight when `Highlight cursor position` is enabled (#1891,
@@ -67,7 +68,11 @@
     * Fixed a cursor update bug (#1954).
     * Made the grid size configurable (#1920).
     * Fixed keyboard shortcuts not working when the menubar is hidden (#2324)
-
+    * Added support for more export options in command line and GUI (#2449)
+    * Switched from deprecated gtk2 initialisation to gtk3 initialisation (#2252)
+    * Improved tool handling and performance improvement (#2339)
+    * Added menu entry to append new pdf pages (#2146)
+    
 ## 1.0.19
 
 More bugfixes and improvements due to help from the various community
